@@ -38,33 +38,33 @@
       📄 README.md
     📁 picoCTF-solves/
       ├── 📁 Web-Exploitation/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 Cryptography/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 Reverse-Engineering/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 Forensics/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 General-Skills/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 Binary-Exploitation/
-      │     ├── Easy/
-      │     ├── Medium/
-      │     └── Hard/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       └── 📁 Blockchain/
-            ├── Easy/
-            ├── Medium/
-            └── Hard/
+            ├── 📁 Easy/
+            ├── 📁 Medium/
+            └── 📁 Hard/
 
 ---
 
