@@ -17,7 +17,7 @@ This repository is a compilation of all my picoCTF solves, documented as well as
 Each category is organized into its own folder. Within each folder, challenges are further separated by difficulty.
 
 | **Category** | **Description** |
-|
+|---|---|
 | **Web Exploitation** | Client/server vulnerabilities, SQL, XSS, etc |
 | **Cryptography** | Ciphers, encoding schemes, and cryptographic flaws |
 | **Reverse Engineering** | Disassembly, decompilation, and binary analysis |
