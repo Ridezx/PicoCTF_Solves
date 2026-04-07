@@ -66,10 +66,10 @@ Each challenge is classified by difficulty:
             ├── Medium/
             └── Hard/
 
---
+---
 
 <p align="center">
-  Built with curiosity. Flags earned, not given. &nbsp;·&nbsp;
+  picoCTF Website. &nbsp;·&nbsp;
   <a href="https://picoctf.org">picoctf.org</a>
   &nbsp;·&nbsp;
   <a href="https://play.picoctf.org/users/Ridez">My Profile</a>
