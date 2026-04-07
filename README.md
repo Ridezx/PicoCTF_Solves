@@ -18,13 +18,13 @@
 
 | **Category** | **Description** |
 |---|---|
-| [**Web Exploitation**](picoCTF%20Solves/Web%20Exploitation) | Client/server vulnerabilities, SQL, XSS, etc |
-| [**Cryptography**](picoCTF%20Solves/Cryptography) | Ciphers, encoding schemes, and cryptographic flaws |
-| [**Reverse Engineering**](picoCTF%20Solves/Reverse%20Engineering) | Disassembly, decompilation, and binary analysis |
-| [**Forensics**](picoCTF%20Solves/Forensics) | File analysis, steganography, and data recovery |
-| [**General Skills**](picoCTF%20Solves/General%20Skills) | Terminal, scripting, and foundational concepts |
-| [**Binary Exploitation**](picoCTF%20Solves/Binary%20Exploitation) | Buffer overflows, ROP chains, and memory exploits |
-| [**Blockchain**](picoCTF%20Solves/Blockchain) | Smart contract vulnerabilities and on-chain analysis |
+| **Web Exploitation** | Client/server vulnerabilities, SQL, XSS, etc |
+| **Cryptography** | Ciphers, encoding schemes, and cryptographic flaws |
+| **Reverse Engineering** | Disassembly, decompilation, and binary analysis |
+| **Forensics** | File analysis, steganography, and data recovery |
+| **General Skills** | Terminal, scripting, and foundational concepts |
+| **Binary Exploitation** | Buffer overflows, ROP chains, and memory exploits |
+| **Blockchain** | Smart contract vulnerabilities and on-chain analysis |
 
 ## **Difficulty levels**
 
@@ -34,6 +34,7 @@
 - 🟡 **Medium** — Requires intermediate knowledge and tooling
 - 🔴 **Hard** — Advanced techniques and multi-step exploitation
 
+<<<<<<< HEAD
 ## Repository structure
 
 📄 README.md
@@ -66,6 +67,39 @@
       ├── 📁 [Easy](picoCTF%20Solves/Blockchain/Easy/)
       ├── 📁 [Medium](picoCTF%20Solves/Blockchain/Medium/)
       └── 📁 [Hard](picoCTF%20Solves/Blockchain/Hard/)
+=======
+## **Repository structure**
+      📄 README.md
+    📁 picoCTF-solves/
+      ├── 📁 Web-Exploitation/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      ├── 📁 Cryptography/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      ├── 📁 Reverse-Engineering/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      ├── 📁 Forensics/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      ├── 📁 General-Skills/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      ├── 📁 Binary-Exploitation/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
+      └── 📁 Blockchain/
+            ├── 📁 Easy/
+            ├── 📁 Medium/
+            └── 📁 Hard/
+>>>>>>> parent of 0ca1b68 (Added Relative Path Links)
 
 ---
 
