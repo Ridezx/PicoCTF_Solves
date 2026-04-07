@@ -1,20 +1,20 @@
-# picoCTF Solves
+# **picoCTF Solves**
 
 ---
 
-## About picoCTF
+## **About picoCTF**
 
 > picoCTF is a free, gamified cybersecurity education platform developed by experts at Carnegie Mellon University, designed to teach computer security through Capture The Flag challenges.
 
-## About this repository
+## **About this repository**
 
-This repository is a compilation of all my picoCTF solves, documented as well as the thought processes I exhibited. Not just the commands and tools, but the reasons behind what the challenge accomplished and/or taught as well.
+> This repository is a compilation of all my picoCTF solves, documented as well as the thought processes I exhibited. Not just the commands and tools, but the reasons behind what the challenge accomplished and/or taught as well.
 
 ---
 
-## Challenge categories
+## **Challenge categories**
 
-Each category is organized into its own folder. Within each folder, challenges are further separated by difficulty.
+*Each category is organized into its own folder. Within each folder, challenges are further separated by difficulty.*
 
 | **Category** | **Description** |
 |---|---|
@@ -26,15 +26,15 @@ Each category is organized into its own folder. Within each folder, challenges a
 | **Binary Exploitation** | Buffer overflows, ROP chains, and memory exploits |
 | **Blockchain** | Smart contract vulnerabilities and on-chain analysis |
 
-## Difficulty levels
+## **Difficulty levels**
 
-Each challenge is classified by difficulty:
+*Each challenge is classified by difficulty:*
 
 - 🟢 **Easy** — Foundational concepts, beginner-friendly
 - 🟡 **Medium** — Requires intermediate knowledge and tooling
 - 🔴 **Hard** — Advanced techniques and multi-step exploitation
 
-## Repository structure
+## **Repository structure**
       📄 README.md
     📁 picoCTF-solves/
       ├── 📁 Web-Exploitation/
