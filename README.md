@@ -35,37 +35,38 @@ Each challenge is classified by difficulty:
 - 🔴 **Hard** — Advanced techniques and multi-step exploitation
 
 ## Repository structure
-📄 README.md
-📁 picoCTF-solves/
-├── 📁 Web-Exploitation/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-├── 📁 Cryptography/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-├── 📁 Reverse-Engineering/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-├── 📁 Forensics/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-├── 📁 General-Skills/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-├── 📁 Binary-Exploitation/
-│     ├── Easy/
-│     ├── Medium/
-│     └── Hard/
-└──  📁 Blockchain/
-      ├── Easy/
-      ├── Medium/
-      └── Hard/
----
+      📄 README.md
+    📁 picoCTF-solves/
+      ├── 📁 Web-Exploitation/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      ├── 📁 Cryptography/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      ├── 📁 Reverse-Engineering/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      ├── 📁 Forensics/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      ├── 📁 General-Skills/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      ├── 📁 Binary-Exploitation/
+      │     ├── Easy/
+      │     ├── Medium/
+      │     └── Hard/
+      └── 📁 Blockchain/
+            ├── Easy/
+            ├── Medium/
+            └── Hard/
+
+--
 
 <p align="center">
   Built with curiosity. Flags earned, not given. &nbsp;·&nbsp;
