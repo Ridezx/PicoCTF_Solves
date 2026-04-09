@@ -18,7 +18,7 @@
 ---
 
 **Description:**
-> Can you reverse a series of Linux text transformations to recover the original flag? Additional details will be available after launching your challenge instance.
+> Can you reverse a series of Linux text transformations to recover the original flag?
 
 ---
 
