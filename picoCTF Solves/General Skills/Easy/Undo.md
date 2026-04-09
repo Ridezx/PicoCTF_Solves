@@ -18,7 +18,7 @@
 ---
 
 **Description:**
-> Can you reverse a series of Linux text transformations to recover the original flag?
+Can you reverse a series of Linux text transformations to recover the original flag?
 
 ---
 
@@ -27,7 +27,7 @@
 nc foggy-cliff.picoctf.net 55748
 ```
 
-> **Hint:** For text translation and character replacement, see [tr command documentation](https://man7.org/linux/man-pages/man1/tr.1.html).
+**Hint:** For text translation and character replacement, see [tr command documentation](https://man7.org/linux/man-pages/man1/tr.1.html).
 
 ---
 
@@ -57,7 +57,7 @@ Enter the Linux command to reverse it:
 
 **Command:**
 
-> Within picoCTF there is a webshell built into the website. This challenge only requires that we type the Linux command it wants. In this example, I only needed to type "base64 -d". In a real scenario, the command would look like:
+Within picoCTF there is a webshell built into the website. This challenge only requires that we type the Linux command it wants. In this example, I only needed to type `"base64 -d"`. In a real scenario, the command would look like:
 
 ```bash 
 echo "KXA2OTgxcHBxLWZhMDFnQHplMHNmYTRlRy1nazNnLXRhMWZlcmlyRShTR1BicHZj" | base64 -d
@@ -91,7 +91,7 @@ rev
 ```
 
 **Reasoning:**
-The 'rev' command reverses the order of characters on a line. Since the transformation was a reversal, applying 'rev' again undoes it. Reversing a reversal returns you to the original string.
+The `rev` command reverses the order of characters on a line. Since the transformation was a reversal, applying `rev` again undoes it. Reversing a reversal returns you to the original string.
 
 ---
 
@@ -107,11 +107,11 @@ Enter the Linux command to reverse it:
 
 **Command:**
 ```bash
-tr '-' '_'
+tr `-` `_`
 ```
 
 **Reasoning:**
-The 'tr' command translates characters one-for-one. Since the original transformation swapped '_' for '-', we reverse it by swapping '-' back to '`_`'.
+The `tr` command translates characters one-for-one. Since the original transformation swapped `_` for `-`, we reverse it by swapping `-` back to `_`.
 
 ---
 
@@ -127,11 +127,11 @@ Enter the Linux command to reverse it:
 
 **Command:**
 ```bash
-tr '()' '{}'
+tr `()` `{}`
 ```
 
 **Reasoning:**
-Again using 'tr', this time targeting parentheses '()' and replacing them with curly braces '{}', which is the standard bracket style used in all picoCTF flags.
+Again using `tr`, this time targeting parentheses `()` and replacing them with curly braces `{}`, which is the standard bracket style used in all picoCTF flags.
 
 ---
 
@@ -147,11 +147,11 @@ Enter the Linux command to reverse it:
 
 **Command:**
 ```bash
-tr 'A-Za-z' 'N-ZA-Mn-za-m'
+tr `A-Za-z` `N-ZA-Mn-za-m`
 ```
 
 **Reasoning:**
-ROT13 shifts every letter 13 positions in the alphabet. Because there are 26 letters, applying ROT13 twice returns the original. It is its own inverse. The 'tr' command handles both uppercase and lowercase simultaneously.
+ROT13 shifts every letter 13 positions in the alphabet. Because there are 26 letters, applying ROT13 twice returns the original. It is its own inverse. The `tr` command handles both uppercase and lowercase simultaneously.
 
 ---
 

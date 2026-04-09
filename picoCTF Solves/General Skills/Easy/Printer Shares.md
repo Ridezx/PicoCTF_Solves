@@ -45,7 +45,7 @@ SMB1 disabled -- no workgroup available
 ```
 
 **Explaination:**
-The '-L' flag tells smbclient to list all available shares on the target server without connecting to any of them. The '-p 53700' specifies the port, and '-N' suppresses the password prompt since this is a guest-accessible server.
+The `-L` flag tells smbclient to list all available shares on the target server without connecting to any of them. The `-p 53700` specifies the port, and `-N` suppresses the password prompt since this is a guest-accessible server.
 
 ---
 
@@ -58,7 +58,7 @@ smb: \>
 ```
 
 **Explaination:**
-We connect directly to the 'shares' share this time by specifying it in the path. A successful connection drops us into a shell, indicated by the 'smb: `\>`' prompt. Now that we know 'shares' exists and is publicly accessible, we connect to it directly.
+We connect directly to the `shares` share this time by specifying it in the path. A successful connection drops us into a shell, indicated by the `smb: \>` prompt. Now that we know `shares` exists and is publicly accessible, we connect to it directly.
 
 ---
 
@@ -76,7 +76,7 @@ smb: \>
 ```
 
 **Explaination:**
-The 'ls' command inside the SMB shell is no different to 'ls' in a Linux terminal. It lists the files and directories in the current location. Two files are present: `dummy.txt` and `flag.txt`. picoCTF solve codes are called flags. 'flag.txt'is only 37 bytes and named flag. It can't get more obvious than that.
+The `ls` command inside the SMB shell is no different to `ls` in a Linux terminal. It lists the files and directories in the current location. Two files are present: `dummy.txt` and `flag.txt`. picoCTF solve codes are called flags. `flag.txt` is only 37 bytes and named flag. It can't get more obvious than that.
 
 ---
 
@@ -91,7 +91,7 @@ picoCTF{Redacted}
 ```
 
 **Explaination:**
-The 'get' command downloads 'flag.txt' from the SMB share to our local working directory. We then exit the SMB shell and use 'cat' to print the contents of the downloaded file to the terminal. The flag confirms the file was the one accidentally sent to the printer share, and the challenge is complete.
+The `get` command downloads `flag.txt` from the SMB share to our local working directory. We then exit the SMB shell and use `cat` to print the contents of the downloaded file to the terminal. The flag confirms the file was the one accidentally sent to the printer share, and the challenge is complete.
 
 ---
 
