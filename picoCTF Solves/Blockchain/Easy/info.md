@@ -1,0 +1,1 @@
+> Unfortunately, at this time, there are zero available easy level blockchain challenges on picoCTF.
