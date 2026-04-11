@@ -30,6 +30,13 @@ Download the file here.
 
 
 ## **Solution**
+The file we download is called digits.bin
 
+After opening, we get bombarded with a bunch of 1s and 0s, standard binary. Utilizing Cyberchef, we are given the option to image the file. A clear photo is now visible.
+
+picoCTF{h1dd3n_1n_th3_b1n4ry_redacted}
+
+---
 
 ## **References**
+[CyberChef](https://gchq.github.io/CyberChef/)
