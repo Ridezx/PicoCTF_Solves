@@ -6,6 +6,8 @@
 
 > picoCTF is a free, gamified cybersecurity education platform developed by experts at Carnegie Mellon University, designed to teach computer security through Capture The Flag challenges.
 
+- Note: On May 9th 2026, PicoCTF transitioned into the [CyLab Security Academy](https://cylabacademy.org). All user data was transfered, so it was more of a facelift for the program. However, I started this project prior to their transfer. As such, some links to challenges will redirect to the CyLab website challenge search screen. Looking up the name of the challenge in the search box will guide you to the challenge.
+
 ## **About this repository**
 
 > This repository is a compilation of all my picoCTF solves, documented as well as the thought processes I exhibited. Not just the commands and tools, but the reasons behind what the challenge accomplished and/or taught as well.
