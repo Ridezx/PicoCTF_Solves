@@ -41,6 +41,10 @@
 ## **Repository structure**
       📄 README.md
     📁 picoCTF-solves/
+      ├── 📁 Artificial Intelligence/
+      │     ├── 📁 Easy/
+      │     ├── 📁 Medium/
+      │     └── 📁 Hard/
       ├── 📁 Web-Exploitation/
       │     ├── 📁 Easy/
       │     ├── 📁 Medium/
