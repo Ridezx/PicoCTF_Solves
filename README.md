@@ -20,6 +20,7 @@
 
 | **Category** | **Description** |
 |---|---|
+| [**Artificial Intelligence**](picoCTF%20Solves/Artificial%20Intelligence) | Prompt injection, model manipulation, and AI system exploitation |
 | [**Web Exploitation**](picoCTF%20Solves/Web%20Exploitation) | Client/server vulnerabilities, SQL, XSS, etc |
 | [**Cryptography**](picoCTF%20Solves/Cryptography) | Ciphers, encoding schemes, and cryptographic flaws |
 | [**Reverse Engineering**](picoCTF%20Solves/Reverse%20Engineering) | Disassembly, decompilation, and binary analysis |
@@ -80,7 +81,7 @@
 
 <p align="center">
   picoCTF Website. &nbsp;·&nbsp;
-  <a href="https://picoctf.org">picoctf.org</a>
+  <a href="https://learn.cylabacademy.org">picoctf.org (Now CyLab Security Academy)</a>
   &nbsp;·&nbsp;
-  <a href="https://play.picoctf.org/users/Ridez">My Profile</a>
+  <a href="https://learn.cylabacademy.org/users/Ridez">My Profile</a>
 </p>
