@@ -1,0 +1,1 @@
+> Unfortunately, at this time, there are zero available medium level artificial intelligence challenges on picoCTF.
